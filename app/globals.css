@@ -5,6 +5,15 @@
   --foreground: #171717;
 }
 
+.h-navigation {
+  height: 5rem;
+}
+
+.h-screen-navigation {
+  height: 100vh;
+  padding-top: 5rem;
+}
+
 body {
   background: var(--background);
   color: var(--foreground);
