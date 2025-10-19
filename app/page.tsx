@@ -399,14 +399,6 @@ export default function Home() {
           </div>
         </div>
       </div>
-
-      {/* Contato */}
-      <footer className="flex justify-center bg-cyan-800 text-white h-20">
-        <div className="w-11/12 flex items-center justify-start gap-2">
-          <h1 className="text-xl">Contato:</h1>
-          <p>projeto.axioma@impatech.edu.br</p>
-        </div>
-      </footer>
     </div>
   );
 }
