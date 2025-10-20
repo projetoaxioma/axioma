@@ -29,7 +29,7 @@ export default function Navigation() {
   return (
     <nav
       ref={menuRef}
-      className={`bg-cyan-900 w-full flex justify-between items-center px-6 py-4 fixed text-white shadow-md z-50 ${
+      className={`h-navigation bg-cyan-900 w-full flex max-[137px]:justify-center justify-between items-center px-6 py-4 fixed text-white shadow-md z-50 flex-wrap ${
         menuOpen ? "rounded-b-none" : "rounded-b-md"
       }`}
     >

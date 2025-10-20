@@ -1,19 +1,9 @@
+import Introduction from "@/components/Introduction";
+
 export default function Home() {
   return (
-    <div>
-      {/* Introdução */}
-      <div className=" h-screen-navigation flex justify-between text-cyan-600">
-        <div className="flex flex-col justify-between py-20 pl-20 wrap max-w-1/2 h-full">
-          <h1 className="text-9xl">PROJETO AXIOMA</h1>
-          <div className="flex gap-20">
-            <p>Logo IMPATECH</p>
-            <p>Logo IMPA</p>
-          </div>
-        </div>
-        <div className="border w-2/5 mr-16 my-10 flex items-center justify-center">
-          IMAGEM DO PROJETO
-        </div>
-      </div>
+    <main>
+      <Introduction/>
 
       {/* Equipe */}
       <div className=" h-screen-navigation flex flex-col justify-between items-center bg-cyan-600 text-white pb-8">
@@ -399,6 +389,6 @@ export default function Home() {
           </div>
         </div>
       </div>
-    </div>
+    </main>
   );
 }
